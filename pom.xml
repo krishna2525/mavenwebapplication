@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-34-221-148-236.us-west-2.compute.amazonaws.com:8080/</url>
+	      <url>http://ec2-3-142-50-101.us-east-2.compute.amazonaws.com:8080/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://ec2-34-221-148-236.us-west-2.compute.amazonaws.com:8080/</url>
+	      <url>http://ec2-3-142-50-101.us-east-2.compute.amazonaws.com:8080/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
