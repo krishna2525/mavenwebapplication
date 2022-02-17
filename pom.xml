@@ -114,10 +114,10 @@
 		
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
+				<!-- <groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3.2</version>
-				<configuration>
+				<configuration> -->
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
@@ -136,10 +136,10 @@
 			</plugin>
 
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
+				<!--<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<version>3.3.2</version>
-				<configuration>
+				<configuration> -->
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
